@@ -20,5 +20,6 @@
       <a href="http://pt5ex8/">ex8</a>
       <a href="http://pt5ex9/">ex9</a>
       <a href="http://pt5ex10/">ex10</a>
+      <a href="http://php-partie6/exercice1/index.php">partie6</a>
     </nav>
         <!-- Fin header.php -->

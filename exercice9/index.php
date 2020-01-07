@@ -3,14 +3,17 @@
 $exerciseNb = 9;
 include '../header.php';
 // tableau associatif avec les départements des Hauts de France et en valeur leur nom
-$department = [
-  'Aisne' => 02,
-  'Nord' => 59,
-  'Oise' => 60,
-  'Pas-de-Calais' => 62,
-  'Somme' => 80
+$counties = [
+  '02' => 'Aisne',
+  '59' => 'Nord',
+  '60' => 'Oise',
+  '62' => 'Pas-de-Calais',
+  '80' => 'somme'
 ];
-// print_r() sert a afficher le contenu avec peut d'information, comparé a son frère var_dump()
-print_r($department);
+foreach ($counties as $county) {
+?>
+<p><?= $county ?></p>
+<?php
+}
 ?>
 <?php include '../footer.php'; ?>
